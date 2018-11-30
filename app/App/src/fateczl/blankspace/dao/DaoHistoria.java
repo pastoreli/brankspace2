@@ -80,7 +80,7 @@ public class DaoHistoria implements DaoPublicacao{
 					+ " FROM tbUsuarioPublicacao as tbUP"
 					+ " INNER JOIN tbHistoria as tbH ON tbUp.idPublicacao = tbH.idPublicacao"
 					+ " INNER JOIN tbPublicacao as tbP ON tbUP.idPublicacao = tbP.idPublicacao"
-					+ " WHERE tbUP.idUsuario = ? AND tbUP.donoPublicacao = "+1+" AND tbP.statusPublicacao = ?"
+					+ " WHERE tbUP.idUsuario = ? AND tbUP.donoPublicacao = 1 AND tbP.statusPublicacao = ?"
 					+ " ORDER BY date DESC";
 			
 			PreparedStatement declaration = dbConnection.CONNECTION.prepareStatement(query);
@@ -88,9 +88,7 @@ public class DaoHistoria implements DaoPublicacao{
 			declaration.setInt(2, statusPublicacao);
 			
 			ResultSet result = declaration.executeQuery();
-			
 			while(result.next()) {
-				
 				Historia historia = new Historia();
 				historia.setIdPublicacao(result.getInt("tbUP.idPublicacao"));
 				historia.setUsuario(usuario);

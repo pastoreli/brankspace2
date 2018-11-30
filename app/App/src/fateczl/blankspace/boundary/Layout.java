@@ -32,16 +32,16 @@ public class Layout extends BorderPane{
 		contentPanel.setCenter(content);
 		admin.setCenter(contentPanel);
 		
-//		setCenter(primaryLayout = new PrimaryLayout());
+		setCenter(primaryLayout = new PrimaryLayout());
 		
 		LAYOUTPANEL = this;
 		
-		AcessoController acessoController = new AcessoController();
-		if(acessoController.logar("admin@admin.com", "123456") != null) {
-			login();
-		}else {
-			System.out.println("Não achou");
-		}
+//		AcessoController acessoController = new AcessoController();
+//		if(acessoController.logar("pastoreli.igor@gmail.com", "123456") != null) {
+//			login();
+//		}else {
+//			System.out.println("Não achou");
+//		}
 		
 	}
 	

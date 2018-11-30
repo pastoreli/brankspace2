@@ -95,12 +95,12 @@ public class Write extends AnchorPane{
 		AnchorPane.setLeftAnchor(leftContent, (double)20);
 		getChildren().add(leftContent);
 		
-		btnPicture = new Button();
-		btnPicture.getStyleClass().add("bspace-image-button");
-		btnPicture.setGraphic(new ImageView("add_image_icon.png"));
-		AnchorPane.setTopAnchor(btnPicture, (double)10);
-		AnchorPane.setLeftAnchor(btnPicture, (double)10);
-		leftContent.getChildren().add(btnPicture);
+//		btnPicture = new Button();
+//		btnPicture.getStyleClass().add("bspace-image-button");
+//		btnPicture.setGraphic(new ImageView("add_image_icon.png"));
+//		AnchorPane.setTopAnchor(btnPicture, (double)10);
+//		AnchorPane.setLeftAnchor(btnPicture, (double)10);
+//		leftContent.getChildren().add(btnPicture);
 		
 		lblTitle = new Label("Título");
 		lblTitle.getStyleClass().add("bspace-text");
@@ -127,6 +127,8 @@ public class Write extends AnchorPane{
 		AnchorPane writeContent = new AnchorPane();
 		AnchorPane.setTopAnchor(writeContent, (double)20);
 		AnchorPane.setLeftAnchor(writeContent, (double)200);
+		AnchorPane.setRightAnchor(writeContent, (double)0);
+		AnchorPane.setBottomAnchor(writeContent, (double)0);
 		getChildren().add(writeContent);
 		
 		txtTitle = new TextField();
@@ -138,6 +140,7 @@ public class Write extends AnchorPane{
 		txtTitle.getStyleClass().add("text-feild-empty");
 		AnchorPane.setTopAnchor(txtTitle, (double)70);
 		AnchorPane.setLeftAnchor(txtTitle, (double)10);
+		AnchorPane.setRightAnchor(txtTitle, (double)10);
 		if(historia != null) txtTitle.setText(historia.getTitulo());
 		writeContent.getChildren().add(txtTitle);
 		
@@ -149,6 +152,8 @@ public class Write extends AnchorPane{
 		txtHistory.getStyleClass().add("text-feild-empty");
 		AnchorPane.setTopAnchor(txtHistory, (double)130);
 		AnchorPane.setLeftAnchor(txtHistory, (double)10);
+		AnchorPane.setRightAnchor(txtHistory, (double)10);
+		AnchorPane.setBottomAnchor(txtHistory, (double)10);
 		if(historia != null) txtHistory.setText(historia.getConteudo());
 		writeContent.getChildren().add(txtHistory);
 		

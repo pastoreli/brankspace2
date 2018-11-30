@@ -63,14 +63,14 @@ public class CardCollection extends HBox{
 		AnchorPane.setLeftAnchor(subtitle, (double)10);
 		card.getChildren().add(subtitle);
 		
-		lblAuthor = new Label(App.usuario.getNome());
-		lblAuthor.getStyleClass().add("bspace-text");
-		lblAuthor.getStyleClass().add("secundary-text");
-		lblAuthor.getStyleClass().add("mini-text");
-		AnchorPane.setBottomAnchor(lblAuthor, (double)25);
-		AnchorPane.setLeftAnchor(lblAuthor, (double)10);
-		AnchorPane.setLeftAnchor(lblAuthor, (double)10);
-		card.getChildren().add(lblAuthor);
+//		lblAuthor = new Label(App.usuario.getNome());
+//		lblAuthor.getStyleClass().add("bspace-text");
+//		lblAuthor.getStyleClass().add("secundary-text");
+//		lblAuthor.getStyleClass().add("mini-text");
+//		AnchorPane.setBottomAnchor(lblAuthor, (double)25);
+//		AnchorPane.setLeftAnchor(lblAuthor, (double)10);
+//		AnchorPane.setLeftAnchor(lblAuthor, (double)10);
+//		card.getChildren().add(lblAuthor);
 		
 		SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
 		
@@ -87,7 +87,7 @@ public class CardCollection extends HBox{
 		btnFavorite.getStyleClass().add("bspace-button-transparent");
 		btnFavorite.setGraphic(new ImageView(new Image(isFavorite? "fill_star_icon.png" : "empty_star_icon.png" , 15, 15, false, false)));
 		AnchorPane.setBottomAnchor(btnFavorite, (double)0);
-		AnchorPane.setRightAnchor(btnFavorite, (double)0);
+		AnchorPane.setRightAnchor(btnFavorite, (double)2);
 		btnFavorite.setOnAction(new EventHandler<ActionEvent>() {
 			@Override
 			public void handle(ActionEvent event) {

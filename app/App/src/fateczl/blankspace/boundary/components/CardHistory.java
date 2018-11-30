@@ -62,13 +62,13 @@ public class CardHistory extends HBox{
 		AnchorPane.setLeftAnchor(lblTitle, (double)10);
 		card.getChildren().add(lblTitle);
 		
-		lblAuthor = new Label(App.usuario.getNome());
-		lblAuthor.getStyleClass().add("bspace-text");
-		lblAuthor.getStyleClass().add("secundary-text");
-		lblAuthor.getStyleClass().add("mini-text");
-		AnchorPane.setBottomAnchor(lblAuthor, (double)25);
-		AnchorPane.setLeftAnchor(lblAuthor, (double)10);
-		card.getChildren().add(lblAuthor);
+//		lblAuthor = new Label(App.usuario.getNome());
+//		lblAuthor.getStyleClass().add("bspace-text");
+//		lblAuthor.getStyleClass().add("secundary-text");
+//		lblAuthor.getStyleClass().add("mini-text");
+//		AnchorPane.setBottomAnchor(lblAuthor, (double)25);
+//		AnchorPane.setLeftAnchor(lblAuthor, (double)10);
+//		card.getChildren().add(lblAuthor);
 		
 		SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
 		
@@ -88,7 +88,7 @@ public class CardHistory extends HBox{
 			btnFavorite.setVisible(false);
 		}
 		AnchorPane.setBottomAnchor(btnFavorite, (double)0);
-		AnchorPane.setRightAnchor(btnFavorite, (double)0);
+		AnchorPane.setRightAnchor(btnFavorite, (double)2);
 		btnFavorite.setOnAction(new EventHandler<ActionEvent>() {
 			@Override
 			public void handle(ActionEvent event) {

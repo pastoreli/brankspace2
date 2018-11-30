@@ -92,18 +92,18 @@ public class Sidebar extends ScrollPane{
 		});
 		addToSidebar(btnPublished, 300, 6, 6, -1);
 		
-		btnDraft = new Button();
+//		btnDraft = new Button();
 //		btnDraft.setText("R");
-		btnDraft.getStyleClass().add("btn-menu");
-		btnDraft.setGraphic(new ImageView("draft_icon.png"));
-		btnDraft.setOnAction(new EventHandler<ActionEvent>() {
-			@Override
-			public void handle(ActionEvent event) {
-				//add to content pane
-				new Drafts();
-			}
-		});
-		addToSidebar(btnDraft, 360, 6, 6, -1);
+//		btnDraft.getStyleClass().add("btn-menu");
+//		btnDraft.setGraphic(new ImageView("draft_icon.png"));
+//		btnDraft.setOnAction(new EventHandler<ActionEvent>() {
+//			@Override
+//			public void handle(ActionEvent event) {
+//				//add to content pane
+//				new Drafts();
+//			}
+//		});
+//		addToSidebar(btnDraft, 360, 6, 6, -1);
 		
 		btnArchived = new Button();
 //		btnArchived.setText("A");
@@ -116,7 +116,7 @@ public class Sidebar extends ScrollPane{
 				new Archiveds();
 			}
 		});
-		addToSidebar(btnArchived, 420, 6, 6, -1);
+		addToSidebar(btnArchived, 360, 6, 6, -1);
 		
 		//logout buttons
 		btnLogout = new Button();

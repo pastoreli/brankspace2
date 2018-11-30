@@ -2,6 +2,7 @@
     -card-color: #EEE;
 }
 
+
 .card-container{
     -fx-padding: 5px;
 }
@@ -10,7 +11,7 @@
     -fx-pref-width: 230px;
     -fx-min-height: 250px;
     -fx-background-color: -card-color;
-    -fx-background-radius: 6px;
+    /* -fx-background-radius: 6px; */
     -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 5, 0, 0, 0);
 }
 
@@ -24,5 +25,5 @@
 }
 
 .card-cover{
-    fx-background-radius: 6px;
+    /* fx-background-radius: 6px; */
 }

@@ -1,7 +1,10 @@
+
 .header{
     -fx-background-color: -content-color;
     -fx-pref-height: 40px;
     -fx-padding: 20px;
+    -fx-border-width:  0px 0px 1px 0px;
+    -fx-border-color: -fifth-color;
 }
 
 .header-title{

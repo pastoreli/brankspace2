@@ -33,7 +33,7 @@ public class Read extends AnchorPane{
 		setPrefWidth(Layout.screenSize.getWidth()-60);
 		
 		cover = new Label();
-		cover.setGraphic(new ImageView("card_cover.jpg"));
+		cover.setGraphic(new ImageView(historia.getImagem()));
 		cover.getStyleClass().add("card-cover");
 		cover.setAlignment(Pos.CENTER);
 		AnchorPane.setTopAnchor(cover, (double)-10);
@@ -57,12 +57,12 @@ public class Read extends AnchorPane{
 		
 		if(historia.getIdUsuario() == App.usuario.getId()) {
 			
-			btnSituation = new Button("Arquivar");
-			btnSituation.getStyleClass().add("bspace-button-transparent");
-			btnSituation.getStyleClass().add("bspace-text");
-			btnSituation.getStyleClass().add("third-text");
-			btnSituation.getStyleClass().add("mini-text-2");
-			optionBox.getChildren().add(btnSituation);
+//			btnSituation = new Button("Arquivar");
+//			btnSituation.getStyleClass().add("bspace-button-transparent");
+//			btnSituation.getStyleClass().add("bspace-text");
+//			btnSituation.getStyleClass().add("third-text");
+//			btnSituation.getStyleClass().add("mini-text-2");
+//			optionBox.getChildren().add(btnSituation);
 			
 			btnEdit = new Button("Editar");
 			btnEdit.getStyleClass().add("bspace-button-transparent");

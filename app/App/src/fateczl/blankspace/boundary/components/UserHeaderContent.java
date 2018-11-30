@@ -69,7 +69,7 @@ public class UserHeaderContent extends AnchorPane{
 		
 		VBox centerItems = new VBox();
 		centerItems.setAlignment(Pos.CENTER);
-		AnchorPane.setTopAnchor(centerItems, (double)10);
+		AnchorPane.setTopAnchor(centerItems, (double)40);
 		AnchorPane.setRightAnchor(centerItems, 100.0);
 		AnchorPane.setLeftAnchor(centerItems, 100.0);
 		getChildren().add(centerItems);
@@ -147,14 +147,14 @@ public class UserHeaderContent extends AnchorPane{
 		followingBox.getChildren().add(lblFollowing);
 		
 		//edit
-		btnEdit = new Button();
-		btnEdit.setText("Editar perfil");
-		btnEdit.getStyleClass().add("bspace-button");
-		btnEdit.getStyleClass().add("large");
-		btnEdit.getStyleClass().add("thin");
-		btnEdit.getStyleClass().add("btn-black");
-		btnEdit.getStyleClass().add("bordered");
-		centerItems.getChildren().add(btnEdit);
+//		btnEdit = new Button();
+//		btnEdit.setText("Editar perfil");
+//		btnEdit.getStyleClass().add("bspace-button");
+//		btnEdit.getStyleClass().add("large");
+//		btnEdit.getStyleClass().add("thin");
+//		btnEdit.getStyleClass().add("btn-black");
+//		btnEdit.getStyleClass().add("bordered");
+//		centerItems.getChildren().add(btnEdit);
 		
 		
 	}
