@@ -40,7 +40,7 @@ public class Write extends AnchorPane{
 		setPrefWidth(Layout.screenSize.getWidth()-60);
 		
 		HBox optionBox = new HBox();
-		AnchorPane.setTopAnchor(optionBox, (double)20);
+		AnchorPane.setTopAnchor(optionBox, (double)10);
 		AnchorPane.setRightAnchor(optionBox, (double)20);
 		getChildren().add(optionBox);
 		
@@ -72,18 +72,14 @@ public class Write extends AnchorPane{
 			
 			@Override
 			public void handle(ActionEvent event) {
-				
 				if(historia == null) {
 					saveHistory(1);
-					
-					new Published();
 				}else {
 					historia.setTitulo(txtTitle.getText());
 					historia.setConteudo(txtHistory.getText());
 					historiaController.editarPublicacao(historia);
-					
+					System.out.println("Edit");
 					new Read(historia.getStatus(), historia);
-					
 				}
 				
 			}
