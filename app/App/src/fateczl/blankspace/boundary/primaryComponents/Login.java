@@ -47,7 +47,7 @@ public class Login extends AnchorPane{
 		
 		VBox buttonContainer = new VBox();
 		buttonContainer.setAlignment(Pos.CENTER);
-		AnchorPane.setBottomAnchor(buttonContainer, (double)0);
+		AnchorPane.setBottomAnchor(buttonContainer, (double)20);
 		AnchorPane.setLeftAnchor(buttonContainer, (double)20);
 		AnchorPane.setRightAnchor(buttonContainer, (double)20);
 		getChildren().add(buttonContainer);
@@ -69,13 +69,13 @@ public class Login extends AnchorPane{
 		});
 		buttonContainer.getChildren().add(btnLogin);
 		
-		btnForgotPassword = new Button("Esqueceu sua senha?");
-		btnForgotPassword.getStyleClass().add("bspace-button-transparent");
-		btnForgotPassword.getStyleClass().add("bspace-text");
-		btnForgotPassword.getStyleClass().add("large");
-		btnForgotPassword.getStyleClass().add("secundary-text");
-		btnForgotPassword.getStyleClass().add("mini-text-2");
-		buttonContainer.getChildren().add(btnForgotPassword);
+//		btnForgotPassword = new Button("Esqueceu sua senha?");
+//		btnForgotPassword.getStyleClass().add("bspace-button-transparent");
+//		btnForgotPassword.getStyleClass().add("bspace-text");
+//		btnForgotPassword.getStyleClass().add("large");
+//		btnForgotPassword.getStyleClass().add("secundary-text");
+//		btnForgotPassword.getStyleClass().add("mini-text-2");
+//		buttonContainer.getChildren().add(btnForgotPassword);
 		
 		
 	}

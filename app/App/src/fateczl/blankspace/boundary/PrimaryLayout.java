@@ -42,7 +42,7 @@ public class PrimaryLayout extends AnchorPane{
 		AnchorPane.setBottomAnchor(infoPanel, (double)0);
 		card.getChildren().add(infoPanel);
 		
-		Label logo = new Label("Logo");
+		Label logo = new Label("Blank Space");
 		logo.getStyleClass().add("bspace-text");
 		logo.getStyleClass().add("bold");
 		logo.getStyleClass().add("primary-text");
@@ -52,7 +52,7 @@ public class PrimaryLayout extends AnchorPane{
 		AnchorPane.setRightAnchor(logo, (double)40);
 		infoPanel.getChildren().add(logo);
 		
-		Label description = new Label("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum lacinia purus, in posuere erat tempor ac. Morbi aliquet.");
+		Label description = new Label("Um aplicativo onde você compartilha suas histórias e interage com amigos");
 		description.getStyleClass().add("bspace-text");
 		description.getStyleClass().add("secundary-text");
 		description.getStyleClass().add("normal-text");
