@@ -1,0 +1,20 @@
+.content{
+    -fx-background: -content-color;
+    -fx-border-color: -content-color;
+}
+
+.page{
+    -fx-pref-width: 100%;
+    -fx-background-color: -content-color;
+}
+
+.container-page{
+    /* -fx-pref-width: 10%; */
+    -fx-background-color: -content-color;
+    -fx-padding: 10px;
+}
+
+.container-page.scroll-page{
+    -fx-background: -content-color;
+    -fx-border-color: -content-color;
+}

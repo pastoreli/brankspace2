@@ -1,0 +1,16 @@
+.header{
+    -fx-background-color: -content-color;
+    -fx-pref-height: 40px;
+    -fx-padding: 20px;
+}
+
+.header-title{
+    -fx-font-size: 24pt;
+    fx-font-family: "Arial";
+    fx-text-fill: -primary-color;
+    -fx-font-weight: bold;
+}
+
+.txt-search{
+    -fx-pref-width: 200px;
+}

@@ -1,0 +1,16 @@
+@import "./_colors.css";
+@import "./_positions.css";
+
+/* componets */
+@import "./components/_text.css";
+@import "./components/_buttons.css";
+@import "./components/_inputs.css";
+@import "./components/_card.css";
+@import "./components/badge.css";
+
+/* pages */
+@import "./_primary.css";
+@import "./_base.css";
+@import "./_sidebar.css";
+@import "./_header.css";
+@import "./_write.css";

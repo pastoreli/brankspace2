@@ -1,0 +1,15 @@
+* {
+    -brand-color: #FFCC00;
+    -brand-color-opacity: rgba(255,204,0,0.15);
+    -danger-color: #F51F4F;
+
+    -sidebar-color: #353535;
+    -content-color: #FFFFFF;
+
+    /* text */
+    -primary-color: rgba(0,0,0,1);
+    -secundary-color: rgba(0,0,0,0.8);
+    -third-color: rgba(0,0,0,0.6);
+    -fourth-color: rgba(0,0,0,0.4);
+    -fifth-color: rgba(0,0,0,0.2);
+}

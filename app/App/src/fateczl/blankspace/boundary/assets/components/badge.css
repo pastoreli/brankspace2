@@ -1,0 +1,12 @@
+.badge{
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+    -fx-padding: 8px;
+    -fx-border-insets: 4px;
+    -fx-background-insets: 4px;
+}
+
+.badge.badge-brand{
+    -fx-background-color: -brand-color;
+    -fx-text-fill: #fff;
+}

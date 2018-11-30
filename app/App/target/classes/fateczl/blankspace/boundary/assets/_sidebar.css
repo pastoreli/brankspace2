@@ -1,0 +1,14 @@
+.sidebar{
+    -fx-background: -sidebar-color;
+    -fx-border-color: -sidebar-color;
+    -fx-pref-height: 20px;
+    -fx-pref-width: 60px;
+}
+
+.btn-menu{
+    -fx-pref-width: 40px;
+    -fx-pref-height: 40px;
+    /* -fx-background-color: rgba(255,255,255,0.6); */
+    -fx-background-color: transparent;
+    -fx-background-radius: 200;
+}

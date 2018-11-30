@@ -1,0 +1,4 @@
+.register_layer{
+    -fx-background-radius: 0px 6px 6px 0px;
+    -fx-background-color: -brand-color-opacity;
+}
